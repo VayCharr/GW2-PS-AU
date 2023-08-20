@@ -1,0 +1,1 @@
+powershell -ExecutionPolicy Bypass .\update_addons.ps1
