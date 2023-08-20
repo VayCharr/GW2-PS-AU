@@ -41,7 +41,7 @@ foreach ($file in $files) {
     }
 }
 
-Write-Host "Downloads started"
+Write-Host "Downloads started.."
 Wait-Job -Job $jobs
 
 foreach ($job in $jobs) {
