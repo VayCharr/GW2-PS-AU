@@ -4,10 +4,11 @@ A simple Guild Wars 2 PowerShell addon updater
 
 ## Using
 
-Place the files in a folder inside your GW2 root folder and run
+Place the files in a folder inside your GW2 root folder and run `update_addons.bat`
 
 File structure should be as follows:
 
+```pre
 Guild Wars 2/  
 ├── ...  
 ├── Gw2-64.exe  
@@ -16,3 +17,4 @@ Guild Wars 2/
     ├── README.md  
     ├── update_addons.bat  
     └── update_addons.ps1  
+```
